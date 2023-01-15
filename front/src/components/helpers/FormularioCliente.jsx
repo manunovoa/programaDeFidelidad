@@ -1,4 +1,4 @@
-const Header = () => {
+const FormularioCliente = () => {
   return (
     <section className="contenedorPrincipal">
       <h1>Formulario de inscripción</h1>
@@ -48,4 +48,4 @@ const Header = () => {
     </section>
   );
 };
-export default Header;
+export default FormularioCliente;

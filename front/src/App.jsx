@@ -3,6 +3,7 @@ import './App.css'
 import Header from './components/helpers/Header'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Main from './components/layout/Main'
+import Footer from './components/helpers/Footer';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
     <section className="App">
       <Header/>
       <Main/>
-
+      <Footer/>
     </section>
   )
 }

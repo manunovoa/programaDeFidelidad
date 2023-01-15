@@ -99,4 +99,19 @@ input::placeholder {
 }
 
 /*footer*/
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  margin-top: 1.1%;
+  bottom: 0;
+}
 
+.icon {
+  transition: 0.5s;
+}
+.icon:hover {
+  transform: scale(1.3);
+}

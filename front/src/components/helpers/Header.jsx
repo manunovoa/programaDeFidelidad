@@ -1,9 +1,8 @@
 const Header = ()=>{
     return(
         <header>
-            <img className="logo" src="../../../icono.png" alt="Logo" />
-            <h1>Control de la empresa</h1>
-
+            <img className="logo" src="../../../public/logo.jpeg" alt="Logo" />
+            <img className="usuario" src="../../../public/usuario.png" alt="Usuario" />
         </header>
     )
 }

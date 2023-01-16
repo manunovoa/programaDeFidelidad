@@ -42,6 +42,8 @@ main {
 
 .contenedorPrincipal {
   display: flex;
+  justify-content: center;
+
   flex-direction: column;
 }
 
@@ -51,6 +53,7 @@ form {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 fieldset {
@@ -66,7 +69,7 @@ fieldset {
   outline: none;
   text-align: center;
   letter-spacing: 2px;
-  margin: 0.8%;
+  margin: 0.5%;
   border: solid 1px #000000;
   cursor: pointer;
   box-shadow: 0 0 15px 0 rgba(106, 105, 105, 0.394) !important;
@@ -89,6 +92,7 @@ input::placeholder {
   transition: ease all 0.5s;
   border-radius: 10px;
   text-align: center;
+  font-size: 23px;
 }
 
 .boton:hover {

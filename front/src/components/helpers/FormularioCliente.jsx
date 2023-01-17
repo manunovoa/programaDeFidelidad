@@ -198,8 +198,8 @@ const FormularioCliente = () => {
           </select>
         </fieldset>
       </form>
-
-      <button
+<section className="contenedorBoton">
+<button
         className="boton"
         value={"Guardar"}
         onClick={guardarCliente}
@@ -207,6 +207,8 @@ const FormularioCliente = () => {
       >
         Inscribir
       </button>
+</section>
+      
     </section>
   );
 };
